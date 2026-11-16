@@ -1,4 +1,6 @@
 sum = 0
-for i in range (1,5):
- print(i,"+",sum,"=",i + sum)
- sum = sum + 1
+number = int(input("Enter a number:"))
+for i in range(0,number + 1):
+    sum = sum + i
+    print("i = ",i)
+    print("sum = ",sum)
